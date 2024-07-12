@@ -25,10 +25,9 @@ jobs:
           # - "harness/gitness:3.0.0-beta.7"
           # - "filebrowser/filebrowser:v2.23.0"
           # - "nginx:1.23.3"
-          # - "nginx:1.23.3-alpine"
+          - "nginx:1.23.3-alpine"
           # - "redis:7.0.4"
           # - "redis:7.0.4-alpine"
-          - "pocketbase.io:0.22.14"
     permissions:
       contents: read
       packages: write
