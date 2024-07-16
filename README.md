@@ -8,12 +8,6 @@
 
 |docker.io|ghcr.io|
 |:---:|:---:|
-|traefik|[ghcr.io/hub-mirror/traefik](../../pkgs/container/traefik)|
-|portainer/portainer-ce|[ghcr.io/hub-mirror/portainer/portainer-ce](../../pkgs/container/portainer%2Fportainer-ce)|
-|gitea/gitea|[ghcr.io/hub-mirror/gitea/gitea](../../pkgs/container/gitea%2Fgitea)|
-|drone/drone|[ghcr.io/hub-mirror/drone/drone](../../pkgs/container/drone%2Fdrone)|
-|filebrowser/filebrowser|[ghcr.io/hub-mirror/filebrowser/filebrowser](../../pkgs/container/filebrowser%2Ffilebrowser)|
 |nginx|[ghcr.io/hub-mirror/nginx](../../pkgs/container/nginx)|
-|redis|[ghcr.io/hub-mirror/redis](../../pkgs/container/redis)|
 
 [docker-compose.yml](./docker-compose.yml)
