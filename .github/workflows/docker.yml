@@ -28,7 +28,8 @@ jobs:
           # - "nginx:1.23.3-alpine"
           # - "redis:7.0.4"
           # - "redis:7.0.4-alpine"
-          - "louislam/uptime-kuma:1.23.13"
+          # - "louislam/uptime-kuma:1.23.13"
+          - "onlyoffice/documentserver:8.1.1"
     permissions:
       contents: read
       packages: write
