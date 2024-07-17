@@ -31,6 +31,8 @@ jobs:
           # - "louislam/uptime-kuma:1.23.13"
           # - "onlyoffice/documentserver:8.1.1"
           - "gitea/runner-images:ubuntu-latest"
+          - "gitea/runner-images:ubuntu-22.04"
+          - "gitea/runner-images:ubuntu-20.04"
     permissions:
       contents: read
       packages: write
