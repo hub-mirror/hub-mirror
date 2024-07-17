@@ -19,8 +19,11 @@ jobs:
           # - "traefik:v3.0.2"
           # - "portainer/portainer-ce:2.16.2"
           # - "portainer/portainer-ce:2.16.2-alpine"
-          # - "gitea/gitea:1.21.1"
-          # - "gitea/act_runner:0.2.10"
+          - "gitea/gitea:1.21.1"
+          - "gitea/act_runner:0.2.10"
+          - "gitea/runner-images:ubuntu-latest"
+          - "gitea/runner-images:ubuntu-22.04"
+          - "gitea/runner-images:ubuntu-20.04"
           # - "drone/drone:2.24.0"
           # - "drone/drone-runner-docker:1.8.2"
           # - "drone/drone-runner-ssh:1.0.1"
@@ -30,9 +33,6 @@ jobs:
           # - "redis:7.0.4-alpine"
           # - "louislam/uptime-kuma:1.23.13"
           # - "onlyoffice/documentserver:8.1.1"
-          - "gitea/runner-images:ubuntu-latest"
-          - "gitea/runner-images:ubuntu-22.04"
-          - "gitea/runner-images:ubuntu-20.04"
     permissions:
       contents: read
       packages: write
