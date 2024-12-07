@@ -16,14 +16,14 @@ jobs:
     strategy:
       matrix:
         image: 
-          # - "traefik:v3.0.2"
-          # - "portainer/portainer-ce:2.16.2"
-          # - "portainer/portainer-ce:2.16.2-alpine"
-          - "gitea/gitea:1.22.4"
-          - "gitea/act_runner:0.2.11"
-          - "gitea/runner-images:ubuntu-latest"
-          - "gitea/runner-images:ubuntu-22.04"
-          - "gitea/runner-images:ubuntu-20.04"
+          - "traefik:v3.2.1"
+          - "portainer/portainer-ce:2.21.4"
+          - "portainer/portainer-ce:2.21.4-alpine"
+          # - "gitea/gitea:1.22.4"
+          # - "gitea/act_runner:0.2.11"
+          # - "gitea/runner-images:ubuntu-latest"
+          # - "gitea/runner-images:ubuntu-22.04"
+          # - "gitea/runner-images:ubuntu-20.04"
           # - "drone/drone:2.24.0"
           # - "drone/drone-runner-docker:1.8.2"
           # - "drone/drone-runner-ssh:1.0.1"
