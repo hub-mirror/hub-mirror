@@ -16,10 +16,10 @@ jobs:
     strategy:
       matrix:
         image: 
-          - "traefik:v3.2.1"
-          - "portainer/portainer-ce:2.21.4"
-          - "portainer/portainer-ce:2.21.4-alpine"
-          # - "gitea/gitea:1.22.4"
+          - "traefik:v3.2.3"
+          # - "portainer/portainer-ce:2.21.4"
+          # - "portainer/portainer-ce:2.21.4-alpine"
+          - "gitea/gitea:1.22.6"
           # - "gitea/act_runner:0.2.11"
           # - "gitea/runner-images:ubuntu-latest"
           # - "gitea/runner-images:ubuntu-22.04"
@@ -31,7 +31,7 @@ jobs:
           # - "nginx:1.23.3-alpine"
           # - "redis:7.0.4"
           # - "redis:7.0.4-alpine"
-          # - "louislam/uptime-kuma:1.23.13"
+          - "louislam/uptime-kuma:1.23.16"
           # - "onlyoffice/documentserver:8.1.1"
     permissions:
       contents: read
