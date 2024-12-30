@@ -19,8 +19,6 @@ jobs:
           # - "traefik:v3.2.3"
           # - "traefik/whoami:v1.10.3"
           - "casbin/casdoor:v1.783.0"
-          # - "oryd/hydra:v2.2.0"
-          # - "oryd/hydra-login-consent-node:v2.2.0"
           # - "portainer/portainer-ce:2.21.4"
           # - "portainer/portainer-ce:2.21.4-alpine"
           # - "gitea/gitea:1.22.6"
