@@ -16,11 +16,7 @@ jobs:
     strategy:
       matrix:
         image: 
-          # - "traefik:v3.2.3"
-          # - "traefik/whoami:v1.10.3"
-          - "casbin/casdoor:v1.783.0"
-          # - "portainer/portainer-ce:2.21.4"
-          # - "portainer/portainer-ce:2.21.4-alpine"
+          - "oryd/kratos:v1.3.1"
           # - "gitea/gitea:1.22.6"
           # - "gitea/act_runner:0.2.11"
           # - "gitea/runner-images:ubuntu-latest"
