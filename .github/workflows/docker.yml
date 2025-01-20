@@ -16,7 +16,8 @@ jobs:
     strategy:
       matrix:
         image: 
-          - "oryd/hydra:v2.2.0"
+          - yourselfhosted/slash
+          # - "oryd/hydra:v2.2.0"
           # - "oryd/kratos:v1.3.1"
           # - "gitea/gitea:1.22.6"
           # - "gitea/act_runner:0.2.11"
