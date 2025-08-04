@@ -19,8 +19,8 @@ jobs:
           # - "yourselfhosted/slash:1.0.0"
           # - "oryd/hydra:v2.2.0"
           # - "oryd/kratos:v1.3.1"
-          - "gitea/gitea:1.24.2"
-          - "gitea/act_runner:0.2.12"
+          # - "gitea/gitea:1.24.2"
+          # - "gitea/act_runner:0.2.12"
           # - "gitea/runner-images:ubuntu-latest"
           # - "gitea/runner-images:ubuntu-22.04"
           # - "gitea/runner-images:ubuntu-20.04"
@@ -34,6 +34,7 @@ jobs:
           # - "redis:7.0.4-alpine"
           # - "louislam/uptime-kuma:1.23.16"
           # - "onlyoffice/documentserver:8.1.1"
+          - "node:18-alpine"
     permissions:
       contents: read
       packages: write
