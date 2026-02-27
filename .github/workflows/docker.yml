@@ -34,7 +34,8 @@ jobs:
           # - "redis:7.0.4-alpine"
           # - "louislam/uptime-kuma:1.23.16"
           # - "onlyoffice/documentserver:8.1.1"
-          - "node:18-alpine"
+          # - "node:18-alpine"
+          - "neosmemo/memos:stable"
     permissions:
       contents: read
       packages: write
