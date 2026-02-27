@@ -35,7 +35,8 @@ jobs:
           # - "louislam/uptime-kuma:1.23.16"
           # - "onlyoffice/documentserver:8.1.1"
           # - "node:18-alpine"
-          - "neosmemo/memos:stable"
+          # - "neosmemo/memos:stable"
+          - "yourselfhosted/slash:latest"
     permissions:
       contents: read
       packages: write
