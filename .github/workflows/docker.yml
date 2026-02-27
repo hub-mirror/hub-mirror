@@ -36,7 +36,7 @@ jobs:
           # - "onlyoffice/documentserver:8.1.1"
           # - "node:18-alpine"
           # - "neosmemo/memos:stable"
-          - "yourselfhosted/slash:latest"
+          - "yourselfhosted/slash:0.5.3"
     permissions:
       contents: read
       packages: write
