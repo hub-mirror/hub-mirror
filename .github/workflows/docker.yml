@@ -16,28 +16,24 @@ jobs:
     strategy:
       matrix:
         image: 
-          # - "yourselfhosted/slash:1.0.0"
           # - "oryd/hydra:v2.2.0"
           # - "oryd/kratos:v1.3.1"
-          # - "gitea/gitea:1.24.2"
-          # - "gitea/act_runner:0.2.12"
+          - "gitea/gitea:1.25.4"
+          - "gitea/act_runner:0.3.0"
           # - "gitea/runner-images:ubuntu-latest"
           # - "gitea/runner-images:ubuntu-22.04"
           # - "gitea/runner-images:ubuntu-20.04"
           # - "drone/drone:2.24.0"
           # - "drone/drone-runner-docker:1.8.2"
           # - "drone/drone-runner-ssh:1.0.1"
-          # - "nginx:1.27.3"
-          # - "nginx:1.27.3-alpine"
-          # - "portainer/portainer-ce:2.26.0-alpine"
+          - "nginx:1.29.5-alpine"
+          - "portainer/portainer-ce:2.39.0-alpine"
           # - "redis:7.0.4"
           # - "redis:7.0.4-alpine"
           # - "louislam/uptime-kuma:1.23.16"
           # - "onlyoffice/documentserver:8.1.1"
           # - "node:18-alpine"
           # - "neosmemo/memos:stable"
-          # - "yourselfhosted/slash:0.5.3"
-          - "b4bz/homer:v25.11.1"
     permissions:
       contents: read
       packages: write
