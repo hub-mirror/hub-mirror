@@ -35,6 +35,7 @@ jobs:
           # - "node:18-alpine"
           # - "neosmemo/memos:stable"
           - "filebrowser/filebrowser:v2.32.3"
+          - "fnsys/dockhand:v1.0.20"
     permissions:
       contents: read
       packages: write
