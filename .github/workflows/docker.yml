@@ -36,7 +36,8 @@ jobs:
           # - "neosmemo/memos:stable"
           # - "filebrowser/filebrowser:v2.32.3"
           # - "fnsys/dockhand:v1.0.20"
-          - "sigoden/dufs:v0.46.0"
+          # - "sigoden/dufs:v0.46.0"
+          - "eceasy/cli-proxy-api:v7.1.61"
     permissions:
       contents: read
       packages: write
